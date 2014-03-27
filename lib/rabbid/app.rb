@@ -1,5 +1,3 @@
-require 'open-uri'
-require 'thin'
 module Rabbid
   extend self
   def with v
@@ -7,6 +5,27 @@ module Rabbid
   ensure
     v.close
   end
+  class Messages
+    def initialize q
+      @queue = q
+      @messages = {}
+    end
+    def start
+      @queue.subscribe do |d, m, p|
+        msg = JSON.parse p
+        @messages[msg["number"]] = msg
+      end
+    end
+    def [] e
+      @messages[e]
+    end
+    def self.start
+      conn = Bunny.new
+      ch = conn.create_channel
+      self.new(ch.queue("").bind(ch.fanout("rabbid")))
+    end
+  end
+  Messages.start
   class App < Sinatra::Base
     register Sinatra::Async
     get '/' do ||
@@ -16,7 +35,7 @@ module Rabbid
       Rabbid.with Bunny.new do |conn|
         conn.start
         ch = conn.create_channel
-        x = ch.fanout("hello")
+        x = ch.fanout("rabbid")
         x.publish(params[:msg])
         redirect url '/'
       end
@@ -25,13 +44,13 @@ module Rabbid
       @body = msg
       slim :index
     end
-    apost '/recv' do
+    aget '/recv' do
       begin
         conn = Bunny.new
         conn.start
         ch = conn.create_channel
-        q = ch.queue("").bind(ch.fanout("hello"))
-        q.subscribe() do |d, m, p|
+        q = ch.queue("").bind(ch.fanout("rabbid"))
+        q.subscribe do |d, m, p|
           begin
             @body = p
             body do

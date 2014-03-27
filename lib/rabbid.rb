@@ -1,3 +1,4 @@
+require 'json'
 require 'sinatra/base'
 require 'sinatra/async'
 require 'slim'
