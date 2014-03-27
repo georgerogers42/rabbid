@@ -1,4 +1,0 @@
-require 'rabbid'
-
-Rabbid.with Bunny.new do |b|
-  b.subscribe block:true 
