@@ -1,5 +1,8 @@
-require "rabbid/version"
+require 'sinatra/base'
+require 'sinatra/async'
+require 'slim'
+require 'bunny'
 
-module Rabbid
-  # Your code goes here...
-end
+require "rabbid/version"
+require "rabbid/app.rb"
+
