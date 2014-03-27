@@ -1,6 +1,12 @@
 doctype html
 html
   head
-    title = @body
+    title 
+      | Rabbid Chat
   body
-    = @body
+    form#submit-message method="POST" action=url("/")
+      input type="text" name="nick" value="anonymous"
+      input type="text" name="msg"
+      input type="submit"
+    table#messages
+    script src="/jam/require.js" data-main="/app.js"
