@@ -8,6 +8,7 @@ module Rabbid
 	ensure
 		v.close
 	end
+	ConSpec = ENV["RABBITMQ_BIGWIG_URL"] || "amqp://localhost"
 	class App < Sinatra::Base
 		i = 1
 		register Sinatra::Async
@@ -15,7 +16,7 @@ module Rabbid
 			slim :index
 		end
 		post '/' do
-			Rabbid.with Bunny.new do |conn|
+			Rabbid.with Bunny.new(ConSpec) do |conn|
 				conn.start
 				ch = conn.create_channel
 				x = ch.fanout("rabbid")
@@ -25,7 +26,7 @@ module Rabbid
 		end
 		apost '/recv.json' do
 			begin
-				conn = Bunny.new
+				conn = Bunny.new(ConSpec)
 				conn.start
 				ch = conn.create_channel
 				q = ch.queue("").bind(ch.fanout("rabbid"))
