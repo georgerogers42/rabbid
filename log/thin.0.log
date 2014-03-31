@@ -1,0 +1,92 @@
+Writing PID to tmp/pids/thin.0.pid
+Using rack adapter
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on foo.0:3000, CTRL+C to stop
+Exiting!
+/home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_server'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/base.rb:63:in `block in start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/controllers/controller.rb:87:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/runner.rb:199:in `run_command'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/runner.rb:155:in `run!'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/bin/thin:6:in `<top (required)>'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/thin:23:in `load'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/thin:23:in `<main>'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Using rack adapter
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on foo.0:3000, CTRL+C to stop
+Exiting!
+/home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_server'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/base.rb:63:in `block in start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/controllers/controller.rb:87:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/runner.rb:199:in `run_command'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/runner.rb:155:in `run!'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/bin/thin:6:in `<top (required)>'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/thin:23:in `load'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/thin:23:in `<main>'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Using rack adapter
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on foo.0:3000, CTRL+C to stop
+Exiting!
+/home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_server'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/base.rb:63:in `block in start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/controllers/controller.rb:87:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/runner.rb:199:in `run_command'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/runner.rb:155:in `run!'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/bin/thin:6:in `<top (required)>'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/thin:23:in `load'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/thin:23:in `<main>'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
+Writing PID to tmp/pids/thin.0.pid
+Using rack adapter
+Thin web server (v1.6.2 codename Doc Brown)
+Maximum connections set to 1024
+Listening on foo.0:3000, CTRL+C to stop
+Exiting!
+/home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_server'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/base.rb:63:in `block in start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/backends/base.rb:73:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/server.rb:162:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/controllers/controller.rb:87:in `start'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/runner.rb:199:in `run_command'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/lib/thin/runner.rb:155:in `run!'
+	from /home/geo/.rvm/gems/ruby-2.1.1/gems/thin-1.6.2/bin/thin:6:in `<top (required)>'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/thin:23:in `load'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/thin:23:in `<main>'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/geo/.rvm/gems/ruby-2.1.1/bin/ruby_executable_hooks:15:in `<main>'
